@@ -76,13 +76,9 @@ estacion-meteorologica-esp32/
 ├── codigo_esp32/
 │   └── estacion_meteorologica.ino
 │
-├── web/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
 ├── datos/
-│   └── registros.csv
+│   ├── registros.csv
+│   └── script.js
 │
 ├── imagenes/
 │   └── montaje.jpg
@@ -112,8 +108,6 @@ El sistema está basado en comunicación I2C para sensores y pantalla, simplific
 ## 🚀 Próximas mejoras
 
 * Acceso remoto desde fuera de la red local
-* Dashboard web con gráficas en tiempo real
-* Integración directa con Google Sheets
 * Sistema de alertas (temperatura alta/baja)
 * Interfaz web más avanzada
 
@@ -121,6 +115,6 @@ El sistema está basado en comunicación I2C para sensores y pantalla, simplific
 
 ## 👨‍💻 Autor
 
-HarolVilla Lozano
+Harol Lozano
 
 ---
